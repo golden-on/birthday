@@ -1,0 +1,494 @@
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header{
+    height: 215px;
+    z-index: 2;
+    position: relative;
+    background-color: white;
+}
+/*LOGO*/
+.Logo{
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center; 
+    padding-top: 25px;
+}
+.Logo img{
+    height: 70px;
+    width: 5%;
+    margin-bottom: -6px;
+}
+.Logo h1, .Logo h4{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}.Logo h4{color: gray;}
+
+/*MENUE*/
+.menue{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px ;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    list-style-type: none;
+    font-family:'Courier New', Courier, monospace;
+    
+}.list li a:hover{
+    cursor: pointer;
+    color: green;
+}
+.list>li{
+    margin-left: 25px;
+}
+.list li a{
+    color: black;
+    text-decoration: none;
+}
+.services{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.services:hover .serv{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.serv{
+    display: none;
+    list-style-type: none;
+    background-color: white;
+    margin: 15px 0 0 0;
+    padding: 24px 0 0 0;
+}.serv>li{
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}.serv li:hover{
+    color: green;
+}
+/*Couverture*/
+.covres{
+    background-color: black;
+    z-index: 1;
+    
+}
+.covres img{
+    width: 100%;
+    height: 700px;
+    position: fixed;
+}
+.cvrTitre{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.753);
+    margin-top: 182px;
+    padding: 13px 0;
+}.cvrTitre h1{
+    font-size: 42px;
+    font-family: helvetica-w01-light,helvetica-w02-light,sans-serif;
+    color: gray;
+}
+/*about us*/
+.presentation{
+    text-align: center;
+    margin: 38px 0 20px 0;;
+}
+.presentation h1{
+    color: white;
+    font-size: 40px;
+    line-height: 1.35em ;  
+}
+.presentation p{
+    color: white;
+    padding: 0 200px;
+    font-size: 18px;
+    margin: 4px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}.para{margin-top: -26px;}
+.about{
+    width: 100%;
+    position: absolute;
+    background-color: rgba(68, 100, 116,1);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 480px;
+}.presentation{
+    text-align: center;
+}
+.profile1, .profile2{
+    width: 48%;
+    height: 155px;
+    border-radius: 230px;
+}
+.director{
+    width: 36%;
+    display: flex;
+    flex-flow: column;
+}
+.P1, .P2{
+    width: 66%;
+    display: flex;
+    align-items: flex-end;
+
+}.P2{margin-top: 120px;}
+.identity p{
+    color: white;
+    font-weight: bolder;
+    margin: 0 0 0 15px;
+    width: 120%;
+}p>a{
+    color: white;
+}
+/*certeficat*/
+.founder{
+    display: flex;
+    justify-content: center;
+}
+.DEKRA{
+    display:flex;
+}
+.DEKRA img{
+    height: 107px;
+    margin-right: 10px;
+}
+.DGFK{
+    width: 60%;
+    display: flex;
+    margin: 97px 0 20px 0;
+}
+.DGFK h1{
+    font-size: 27px;
+    color: white;
+}
+.DGFK img{
+    margin-top: 23px;
+    width: 90%;
+    height: 40px;
+}
+.certeficat{
+    width: 15%;
+    margin-left: 35px;
+}
+.TELE{
+    color: white;
+    width: 145%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}.TELE p{margin: 0;}
+.P3{
+    padding: 25px 0px 60px 105px;
+    text-align: center;
+}
+.P3 a{
+    width: 50%;
+    padding: 13px 30px;
+    border:1px solid white;
+    border-radius: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.P3 a:hover  {
+    background-color: white;
+    color: rgba(68, 100, 116,1);
+}
+.P3 a{
+    text-decoration: none;
+    color: white;
+}
+
+/*sevices*/
+.our_services{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    margin: 1308px 0 0 0 ;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+.intro{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.intro h1{
+    border-bottom: 1px solid black;
+    color: rgba(68, 100, 116,1);
+    padding: 30px 0 ;
+    font-size: 40px;
+    
+}
+.intro p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    font-size: 18px;   
+}
+.sevice1{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.carte{
+    background-color: rgba(68, 100, 116,1);
+    width: 69%;
+    margin: 40px 0 40px 0;
+    display: flex;
+}
+.information{
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    margin: 60px 0 0 5% ;
+}
+.information p{
+    width: 93%;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 40px;
+}
+.information h1{
+    font-size: 19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.butt, .buttC{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+.butt .P3, .buttC .P3 {
+    margin-top: 60px;
+    padding: 0;
+}
+.butt .P3 a, .buttC .P3 a {
+    padding: 12px 47px ;
+
+}
+.buttC .P3 {
+    margin-top: 30px;
+}
+.buttC .an3, .butt .an3 {
+    animation: butleft 2s ease-out  ;
+}
+@keyframes butleft{
+    0%{
+        position: relative;
+        right: 300px;
+    }
+    100%{
+        position: relative;
+        right: 0;
+    }
+}
+/*formulaire */
+.formulaire{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    margin: -20px 0;
+}
+.Fcolore{
+    width: 100%;
+    background-color:  rgba(68, 100, 116,1);
+    display: flex;
+    justify-content: center;
+}
+.formPic{
+    padding: 79px;
+    display: flex;
+}
+.formul1{
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.frm{
+    
+    width: 80%;
+
+}
+.formul1 input{
+    border: none;
+    border-bottom: 1px solid black;
+    height: 45px;
+    
+}
+.formul1 #Surname, .formul1 #email{
+    width: 45.7%;
+    margin-right: 3%;
+}
+.formul1 #Subject{
+    width: 100%;
+}
+.formul1 #message{
+    width: 100%;
+    padding:  16px 0 110px 0;
+}
+.formul1 button{
+    margin:20px 0 0 220px;
+    border: none;
+    background-color: white;
+}
+.formul1 h1{
+    font-size: 39px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+.copyR{
+    position: relative;
+    width: 100%;
+    background-color: rgba(24,24,24,1);
+    text-align: center;
+    color: white;
+    padding: 25px 0;
+    font-size: 15px;
+}
+
+@media only screen and (max-width:767px){
+    .formPic{
+        display: flex;
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+    .Fpic{
+        background-color: aqua;
+        width: 120%;
+    }
+    .Fpic img, .pic img{
+        width: 100%;
+        margin-bottom: -5px;
+    }
+    .formul1{
+        width: 120%;
+    }
+    .formul1 button{
+        margin: 0;
+        padding: 15px 0;
+    }
+    .frm{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .formul1 #email, .formul1 #Surname{
+        width: 100%;
+    }
+    .formul1 h1{
+        font-size: 20px;
+    }
+    /* services*/
+    .carte{
+        display: flex;
+        flex-flow: column;
+    }
+    .butt{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .butt .P3 a, .buttC .P3 a {
+        padding: 12px 27px ;
+    }
+    .butt .P3, .buttC .P3{
+        margin: 30px 0;
+    }
+    .presentation p{
+        padding: 0;
+        font-size: 12px;
+    }
+    .presentation h1{
+        font-size: 30px;  
+    }
+    .founder{
+        display: flex;
+        flex-flow: column;
+    }
+    .director{
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+       
+    }
+    .P1, .P2{
+        margin: 0;
+        padding: 0;
+        width: 35%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .identity{
+        width: 100%;
+    }
+    .identity p{
+        width: 90%;
+
+    }
+    #siza{
+        font-size: 12px;
+    }
+    .list{
+        width: 90%;
+        font-size:12.5px;   
+        padding: 0 0 0 10px;  
+    }
+    .menue{
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .profile1, .profile2{
+        width: 68%;
+        height: 115px;
+        border-radius: 230px;
+    }
+    .certeficat{
+        padding: 45px 0 0 0;
+        margin: 0;
+        display: flex;
+        width: 100%;
+    }
+    .TELE{
+        width: 80%;
+    }
+    .DEKRA{
+        display:flex;
+        flex-flow: column;
+    }
+    .DGFK{
+        width: 40%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    .DGFK img{
+        margin-top: 23px;
+        width: 90%;
+        height: 40px;
+    }
+    .DGFK h1{
+        font-size: 19px;
+        color: white;
+    }
+    .BVSW{
+        padding-top: 80px;
+    }
+    .our_services{
+        margin: 1230px 0 0 0 ;
+    }
+}
